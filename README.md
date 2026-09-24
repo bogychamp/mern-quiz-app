@@ -56,7 +56,7 @@ mern-quiz-app/
     ├── index.html       # Vite entry HTML
     ├── vite.config.js   # Vite configuration
     └── package.json
-
+```
 Markdown
 ## 📸 Screenshots
 
