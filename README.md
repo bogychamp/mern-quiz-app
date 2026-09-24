@@ -54,32 +54,44 @@ Follow these steps to run the project locally on your machine.
 git clone [https://github.com/bogychamp/mern-quiz-app.git](https://github.com/bogychamp/mern-quiz-app.git)
 cd mern-quiz-app
 ```
-2. Backend Setup
+### 2. Backend Setup
 Navigate to the backend directory:
-Bash
+```bash
 cd backend
+```
+
 Install dependencies:
-Bash
+```bash
 npm install
+```
+
 Create a .env file in the backend directory (refer to .env.example):
-Фрагмент кода
+```bash
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 SESSION_SECRET=your_secret_key
+```
 Start the backend server:
-Bash
+```bash
 npm start
+```
 The server will run on http://localhost:5000.
-3. Frontend Setup
+
+### 4. Frontend Setup
 Open a new terminal window and navigate to the frontend directory:
-Bash
+```bash
 cd frontend
+```
+
 Install dependencies:
-Bash
+```bash
 npm install
+```
+
 Start the React/Vite development server:
-Bash
+```bash
 npm run dev
+```
 Open your browser and navigate to the URL shown in the terminal (usually http://localhost:5173).
 ---
 ## 📁 Project Structure
