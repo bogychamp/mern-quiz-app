@@ -77,7 +77,7 @@ npm start
 ```
 The server will run on http://localhost:5000.
 
-### 4. Frontend Setup
+### 3. Frontend Setup
 Open a new terminal window and navigate to the frontend directory:
 ```bash
 cd frontend
@@ -112,7 +112,7 @@ mern-quiz-app/
     ├── vite.config.js   # Vite configuration
     └── package.json
 ```
-Markdown
+
 ## 📸 Screenshots
 
 <table>
