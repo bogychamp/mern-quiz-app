@@ -56,3 +56,39 @@ mern-quiz-app/
     ├── index.html       # Vite entry HTML
     ├── vite.config.js   # Vite configuration
     └── package.json
+
+Markdown
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td align="center"><strong>Landing Page</strong></td>
+    <td align="center"><strong>Sign In Page</strong></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/01_landing.jpg" width="400" alt="Landing Page"></td>
+    <td><img src="./screenshots/02_login.jpg" width="400" alt="Sign In Page"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Create Account</strong></td>
+    <td align="center"><strong>User Profile</strong></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/03_register.jpg" width="400" alt="Register Page"></td>
+    <td><img src="./screenshots/04_profile.jpg" width="400" alt="User Profile"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Quiz Start (Light Theme)</strong></td>
+    <td align="center"><strong>Quiz Start (Dark Theme)</strong></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/05_quiz_light.jpg" width="400" alt="Quiz Light Theme"></td>
+    <td><img src="./screenshots/06_quiz_dark.jpg" width="400" alt="Quiz Dark Theme"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><strong>Global Leaderboard</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="./screenshots/07_leaderboard.jpg" width="600" alt="Global Leaderboard"></td>
+  </tr>
+</table>
