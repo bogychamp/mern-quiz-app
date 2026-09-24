@@ -38,7 +38,50 @@ A full-stack, secure online quiz solving platform built using the **MERN** (Mong
 - **API Integration:** Open Trivia Database API
 
 ---
+## ⚙️ Local Setup & Installation
 
+Follow these steps to run the project locally on your machine.
+
+### Prerequisites
+- **Node.js** (v16.x or higher)
+- **npm** (comes with Node.js)
+- **MongoDB** (MongoDB Atlas cluster or local instance)
+
+---
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/bogychamp/mern-quiz-app.git](https://github.com/bogychamp/mern-quiz-app.git)
+cd mern-quiz-app
+```
+2. Backend Setup
+Navigate to the backend directory:
+Bash
+cd backend
+Install dependencies:
+Bash
+npm install
+Create a .env file in the backend directory (refer to .env.example):
+Фрагмент кода
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+SESSION_SECRET=your_secret_key
+Start the backend server:
+Bash
+npm start
+The server will run on http://localhost:5000.
+3. Frontend Setup
+Open a new terminal window and navigate to the frontend directory:
+Bash
+cd frontend
+Install dependencies:
+Bash
+npm install
+Start the React/Vite development server:
+Bash
+npm run dev
+Open your browser and navigate to the URL shown in the terminal (usually http://localhost:5173).
+---
 ## 📁 Project Structure
 
 ```text
